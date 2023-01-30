@@ -1,0 +1,42 @@
+//package sample;
+//
+//import javafx.fxml.FXML;
+//import javafx.scene.control.Button;
+//import javafx.scene.control.Label;
+//import javafx.event.ActionEvent;
+//import javafx.stage.Stage;
+//import sample.Main;
+//
+//
+//import java.io.IOException;
+//
+//public class Enter {
+//
+//    @FXML
+//    private Button enter;
+//
+//    @FXML
+//    private Label name;
+//
+//    @FXML
+//    public void initialize() throws Exception {
+//        enter.setOnAction((event)->{
+//
+//            sample.Main m = new sample.Main();
+//
+//            try {
+//                m.changeScene("Login.fxml");
+//            } catch (IOException e) {
+//                e.printStackTrace();
+//            }
+//
+//        });
+//    }
+//
+////    public void enterWebsite(ActionEvent event) throws IOException {
+////        Main m = new Main(); //Create a new object of main to change scene
+////        m.changeScene("Login.fxml");
+////
+////    }
+//
+//}
